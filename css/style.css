@@ -13,8 +13,8 @@
 }
 
 .avatar {
-    height: 2500px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     background-image: url(../images/faceimage.png);
     background-position: center;
     background-size: cover;
