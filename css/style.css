@@ -1,0 +1,61 @@
+.layout {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    width: 25%;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.avatar {
+    height: 200px;
+    width: 200px;
+    background-image: url(../images/faceimage.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+nav {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration:none;
+    justify-content: space-evenly;
+
+}
+.persona{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.main {
+    width: 75%;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url(../images/shirtman.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero div {
+    height: 30%;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
